@@ -39,7 +39,7 @@ const initial = () => {
 
 // Simple route
 app.get("/", (req, res) => {
-    res.json({ message: "Hello"});
+    res.json({ message: "Hello" });
 });
 
 // Routes
